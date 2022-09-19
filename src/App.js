@@ -13,7 +13,7 @@ function App() {
           <nav>
             <ul>
               <li><Link to='/'>Emoji Search</Link></li>
-              <li><Link to='/hireMe'>Hire Me</Link></li>
+              <li><Link to='/hire-me'>Hire Me</Link></li>
             </ul>
           </nav>
         <Routes>  
