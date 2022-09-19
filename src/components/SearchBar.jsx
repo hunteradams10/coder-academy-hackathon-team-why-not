@@ -65,9 +65,10 @@ const SearchBar = () => {
 
 
     function handleOnChange(event){
+        let removeWhitespace = event.target.value.trim().replaceAll(" ","").toLowerCase()
         setData({
             ...data,
-            userInput: event.target.value
+            userInput: removeWhitespace
         })
     }
 
