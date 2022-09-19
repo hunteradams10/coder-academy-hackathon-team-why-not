@@ -9,7 +9,7 @@ const NotFound = () => {
        </div>
 
        <div className='notfound-home'>
-         <p>Back to <a href=''>Home</a></p>
+         <p>Back to <a href='/'>Home</a></p>
        </div>
 
        <div className='notfound-img'>
