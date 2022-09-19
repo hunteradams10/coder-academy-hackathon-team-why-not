@@ -33,6 +33,11 @@
     color: white;
   }
 
+  .nav{
+    display: flex;
+    justify-content: space-between;
+  }
+
   #light  .nav {
     background-color: #f7e3fc;
   }
