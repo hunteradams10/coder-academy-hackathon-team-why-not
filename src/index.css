@@ -1,3 +1,13 @@
+/* Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;600;700&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+
+/* Searchbar CSS */
 .search-container {
     display: flex;
     flex-direction: column;
@@ -21,3 +31,59 @@
     /* border: 1px solid black; */
 
 }
+
+
+/* Hire Us CSS */
+
+
+
+ .hire-us-message {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #464646;
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .bio-card-main {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin: auto;
+ }
+
+ .bio-card {
+    
+    height: 500px;
+    width: 300px;
+    padding: 10px 10px 10px 30px;
+    margin: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px; /* 15px rounded corners */
+ }
+
+ .bio-image {
+    height: auto;
+    width: 200px;
+    margin: auto;
+    display: flex;
+    justify-content: center;   
+ }
+
+ .bio-text {
+    font-size: 16px;
+    padding: 10px 0 15px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #464646;
+
+ }
+
+ .bio-icons {
+    display: flex;
+    justify-content: center;
+ }

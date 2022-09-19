@@ -1,0 +1,81 @@
+.App {
+    font-family: "Ubuntu", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+  }
+
+#light{
+    background-color: #f3ebf6;
+  }
+  
+  #dark {
+    background-color: #46045e;
+  }
+
+  .switch {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .switch label {
+    margin: 10px;
+  }
+  
+  #light .switch label {
+    color: black;
+  }
+  
+  #dark .switch label {
+    color: white;
+  }
+
+  #light  .nav {
+    background-color: #f7e3fc;
+  }
+
+  #dark  .nav {
+    background-color: #46045e;
+  }
+
+  .heading {
+    align-items: center;
+    text-align: center;
+  }
+
+  #light  .heading{
+    color: #46045e;
+  }
+
+  #dark  .heading{
+    color: #d7bfdb;
+  }
+
+  #light  .input{
+    color: rgb(38, 50, 56);
+    background: rgba(96, 94, 97, 0.04);
+  }
+
+  #dark  .input {
+    color: rgb(254, 255, 255);
+    background: rgba(255, 247, 247, 0.299);
+  }
+
+  .input{
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-bottom: 50px;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 27px;
+  }

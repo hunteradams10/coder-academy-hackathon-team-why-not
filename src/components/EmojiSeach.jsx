@@ -1,8 +1,9 @@
 import React from 'react'
+import '../App.css'
 
 function EmojiSearch() {
   return (
-    <div >
+    <div className="heading">
       <h1>Emoji Search</h1>
     </div>  
   )  

@@ -116,8 +116,8 @@ return (
         />
 
         <div className="search-container">
-            <label>Emoji Search 🔎</label>
-            <input type="text" onChange={handleOnChange}></input>
+            <label className="heading">Emoji Search 🔎</label>
+            <input className="input" type="text" onChange={handleOnChange}></input>
         </div>
 
         <div className="emoji-container">
