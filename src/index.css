@@ -82,3 +82,32 @@
     display: flex;
     justify-content: center;
  }
+
+
+ .notfound {
+    
+    
+
+ }
+
+ .notfound-text {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #464646;
+    display: flex;
+    justify-content: center;
+
+ }
+
+ .notfound-home {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    color: #464646;
+    display: flex;
+    justify-content: center;
+    
+
+ }
+
