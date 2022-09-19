@@ -1,6 +1,4 @@
 import React,{useState,useEffect} from "react";
-import WhyNot from "./WhyNot";
-
 
 const SearchBar = () => {
 
