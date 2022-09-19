@@ -43,7 +43,7 @@ const SearchBar = () => {
                         name: name,
                         emoji:obj.character
                     }
-                    return newObj
+                    return newObj // [{},{}...]
                 })
                 let emojiDedupe = emojiResult.filter((obj)=>!obj.name.startsWith("E"))
 
@@ -65,15 +65,18 @@ const SearchBar = () => {
 
 
     function handleOnChange(event){
+        let removeWhitespace = event.target.value.trim().replaceAll(" ","").toLowerCase()
         setData({
             ...data,
-            userInput: event.target.value
+            userInput: removeWhitespace
         })
     }
 
     function getFilteredEmojis(){
         if(!data.userInput){
             return data.emojis
+        }else if(data.userInput=== 'su'){
+            return data.emojis.filter((obj)=>obj.name === 'su')
         }else {
             let filteredEmojis = data.emojis.filter((obj)=>{
                 return obj.name.includes(data.userInput)
