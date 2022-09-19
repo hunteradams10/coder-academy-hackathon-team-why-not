@@ -1,10 +1,4 @@
 import React,{useState,useEffect} from "react";
-import WhyNot from "./WhyNot";
-// import Box from '@mui/material/Box';
-// import Typography from '@mui/material/Typography';
-// import Card from "@mui/material";
-
-
 
 const SearchBar = () => {
 
