@@ -21,10 +21,38 @@ const SearchBar = () => {
             name:'hunter',
             image: "image/Hunter.png"
         },
+        {
+            name: "default",
+            emoji: "🪄"
+        },
+        {
+            name: "default",
+            emoji: "🔮"
+        },
+        {
+            name: "default",
+            emoji: "💫"
+        },
+        {
+            name: "default",
+            emoji: "🎩"
+        },
+        {
+            name: "default",
+            emoji: "🦄"
+        },
+        {
+            name: "default",
+            emoji: "💠"
+        },
+        {
+            name: "default",
+            emoji: "✨"
+        },
     ]
 
     const InitialData = {
-        emojis:[],
+        emojis:InitialEmojis,
         userInput:""
     }
 
@@ -36,8 +64,8 @@ const SearchBar = () => {
         
             fetch(url).then((result) => {
                 return result.json();
-            }).then((data) => {
-                let emojiResult = data.map((obj)=>{
+            }).then((jsonData) => {
+                let emojiResult = jsonData.map((obj)=>{
                     let name = obj.unicodeName + " " + obj.subGroup
                     let newObj = {
                         name: name,
@@ -73,11 +101,19 @@ const SearchBar = () => {
     }
 
     function getFilteredEmojis(){
-        if(!data.userInput){
-            return data.emojis
-        }else if(data.userInput=== 'su'){
+        // if(!data.userInput){
+        //     return data.emojis
+        // }else 
+        if(data.userInput=== 'su'){
             return data.emojis.filter((obj)=>obj.name === 'su')
-        }else {
+        }else if (data.userInput=== 'engineer'){
+            return data.emojis.filter((obj)=>obj.image)
+        }
+        else if (data.userInput=== ''){
+            
+            return data.emojis.filter((obj)=>obj.name === 'default')
+        }
+        else {
             let filteredEmojis = data.emojis.filter((obj)=>{
                 return obj.name.includes(data.userInput)
             })
@@ -116,14 +152,14 @@ return (
         />
 
         <div className="search-container">
-            <label className="heading">Emoji Search 🔎</label>
-            <input className="input" type="text" onChange={handleOnChange}></input>
+            {/* <label className="heading">Emoji Search 🔎</label> */}
+            <input className="input" type="text" placeholder="ex. magic (start typing to show results)" onChange={handleOnChange}></input>
         </div>
 
         <div className="emoji-container">
-            {data.userInput && getFilteredEmojis().map((obj,index)=>{
+            {getFilteredEmojis().map((obj,index)=>{
                 return (
-                    <div className="emoji" key={index} onClick={handleCopy} value={obj.image}> {obj.emoji} {obj.image && <img width="250" src={obj.image} alt={obj.name}/>} </div>
+                    <div className="emoji" key={index} onClick={handleCopy} value={obj.name}> {obj.emoji} {obj.image && <img width="250" src={obj.image} alt={obj.name}/>} </div>
                 )
             })}
         </div>
