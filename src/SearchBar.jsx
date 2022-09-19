@@ -86,7 +86,6 @@ const SearchBar = () => {
         <div className="search-container">
             <label>Emoji Search 🔎</label>
             <input type="text" onChange={handleOnChange}></input>
-            <button>HIRE US</button>
         </div>
 
         <div className="emoji-container">
