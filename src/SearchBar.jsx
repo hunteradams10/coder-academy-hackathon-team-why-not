@@ -1,4 +1,6 @@
 import React,{useState,useEffect} from "react";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 const SearchBar = () => {
 
@@ -80,9 +82,36 @@ const SearchBar = () => {
         }
     }
 
+    function handleCopy(event){ 
+        let emoji = event.target.innerText
+        navigator.clipboard.writeText(emoji)
+        
+        toast.success(`Copied ${emoji} Good choice!`, {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            });
+    }
+
    
-  return (
+return (
     <div>
+        <ToastContainer
+            position="top-center"
+            autoClose={5000}
+            hideProgressBar={false}
+            newestOnTop={false}
+            closeOnClick
+            rtl={false}
+            pauseOnFocusLoss
+            draggable
+            pauseOnHover
+        />
+
         <div className="search-container">
             <label>Emoji Search 🔎</label>
             <input type="text" onChange={handleOnChange}></input>
@@ -92,7 +121,7 @@ const SearchBar = () => {
         <div className="emoji-container">
             {data.userInput && getFilteredEmojis().map((obj,index)=>{
                 return (
-                    <div className="emoji" key={index}> {obj.emoji} {obj.image && <img width="250" src={obj.image} alt={obj.name}/>} </div>
+                    <div className="emoji" key={index} onClick={handleCopy} value={obj.image}> {obj.emoji} {obj.image && <img width="250" src={obj.image} alt={obj.name}/>} </div>
                 )
             })}
         </div>
