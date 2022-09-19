@@ -36,6 +36,47 @@
   .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+    padding-bottom: 0.2rem;
+  }
+
+  .button {
+    padding: 2px;
+    margin: 5px;
+    border-radius: 5px;
+    border-width: 1.5px;
+  }
+
+  #light  .button {
+    color:#46045e;
+    border-color: #46045e;
+    background-color: #f797f6;
+    opacity: 85%;
+  }
+
+  #dark  .button {
+    color:#f797f6;
+    border-color: #f797f6;
+    background-color: #46045e;
+    opacity: 85%;
+  }
+
+
+  .emojiSearch {
+    text-decoration: none;
+    font-size: large;
+    font-weight: 300;
+    padding-left: 0.3rem;
+  }
+
+  #light  .emojiSearch{
+    color: #46045e;
+
+  }
+
+  #dark  .emojiSearch{
+    color:#f797f6
   }
 
   #light  .nav {
