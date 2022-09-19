@@ -1,6 +1,8 @@
+import 'App.css'
+
 function App() {
   return (
-    null
+    <h1>Fixed!</h1>
   );
 }
 
