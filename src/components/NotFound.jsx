@@ -13,10 +13,10 @@ const NotFound = () => {
        </div>
 
        <div className='notfound-img'>
-         <img src='image/Su.png' alt='Su'></img>
-         <img src='image/Nhi.png' alt='Nhi'></img>
-         <img src='image/Hunter.png' alt='Hunter'></img>
-         <img src='image/Sofia.png' alt='Sofia'></img>
+         <img className='su' src='image/Su-Sm.png' alt='Su'></img>
+         <img className='nhi' src='image/Nhi-Sm.png' alt='Nhi'></img>
+         <img className='hunter' src='image/Hunter-Sm.png' alt='Hunter'></img>
+         <img className='sofia' src='image/Sofia-Sm.png' alt='Sofia'></img>
        </div>
         
         
