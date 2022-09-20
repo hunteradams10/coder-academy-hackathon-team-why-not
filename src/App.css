@@ -226,7 +226,8 @@
     width: 100px;
     margin: auto;
     display: flex;
-    justify-content: center;   
+    justify-content: center;  
+    padding-bottom: 25px; 
  }
 
  .bio-text {
@@ -244,7 +245,7 @@
 
  .bio-icons {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
  }
 
 .input {
