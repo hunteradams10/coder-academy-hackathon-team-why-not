@@ -1,7 +1,7 @@
 .App {
     font-family: "Ubuntu", sans-serif;
-    width: 100vw;
-    height: 100vh;
+    width: auto;
+    height: auto;
     display: flex;
   }
 
@@ -91,6 +91,17 @@
   .heading {
     align-items: center;
     text-align: center;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  #light  .emojiword {
+    color: #adacad;
+  }
+
+  #dark  .emojiword {
+    color: #f3d7f5;
   }
 
   #light  .heading{
@@ -98,7 +109,7 @@
   }
 
   #dark  .heading{
-    color: #d7bfdb;
+    color: #c568cc;
   }
 
   #light  .input{
