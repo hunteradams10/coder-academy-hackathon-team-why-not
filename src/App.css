@@ -1,7 +1,7 @@
 .App {
-    font-family: "Poppins", sans-serif;
-    width: 100vw;
-    height: 100vh;
+    font-family: "Ubuntu", sans-serif;
+    width: auto;
+    height: auto;
     display: flex;
   }
 
@@ -30,7 +30,7 @@
   }
   
   #dark .switch label {
-    color: white;
+    color: #adacad;
   }
 
   .nav{
@@ -92,6 +92,17 @@
   .heading {
     align-items: center;
     text-align: center;
+    width: 50%;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+
+  #light  .emojiword {
+    color: #adacad;
+  }
+
+  #dark  .emojiword {
+    color: #f3d7f5;
   }
 
   #light  .heading{
@@ -99,7 +110,7 @@
   }
 
   #dark  .heading{
-    color: #d7bfdb;
+    color: #c568cc;
   }
 
   #light  .input{
@@ -127,3 +138,187 @@
     text-align: center;
     margin-bottom: 27px;
   }
+
+
+
+  #dark  .input::placeholder{
+    color: #f3d7f5;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+/* Searchbar CSS */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.emoji-container {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 1em;
+    font-size: 100px;
+
+}
+
+
+.emoji {
+    padding:40px;
+    /* border: 1px solid black; */
+
+}
+
+
+/* Hire Us CSS */
+
+
+
+ .hire-us-message {
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #464646;
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+ }
+
+ #dark  .hire-us-message{
+    color:#c568cc
+ }
+
+ .bio-card-main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    height: auto;
+    margin: auto;
+ }
+
+ .bio-card {
+    
+    height: 450px;
+    width: 250px;
+    padding: 10px 10px 10px 30px;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 15px; /* 15px rounded corners */
+ }
+
+ #dark  .bio-card{
+    background-color: #c568cc;
+    opacity: 90%;
+ }
+
+ .bio-image {
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    display: flex;
+    justify-content: center;   
+ }
+
+ .bio-text {
+    font-size: 15px;
+    padding: 10px 0 25px 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    color: #464646;
+
+ }
+
+ #dark  .bio-text{
+  color: #46045e;
+ }
+
+ .bio-icons {
+    display: flex;
+    justify-content: center;
+ }
+
+.input {
+   width:60%
+}
+
+ /* Not found CSS */
+
+ .notfound-text {
+   font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #464646;
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    text-align: center;
+ }
+
+ .linkhome {
+  color: #46045e;
+  text-decoration: none;
+ }
+
+ #dark  .linkhome{
+  color:#c568cc
+ }
+
+ #dark  .notfound-text{
+    color:#adacad
+ }
+
+ #dark  .notfound-home{
+    color:#adacad;
+ }
+
+ .notfound-home {
+   font-family: 'Poppins', sans-serif;
+   font-weight: 600;
+   font-size: 30px;
+   color: #464646;
+   display: flex;
+   justify-content: center;
+   padding-bottom: 30px;
+}
+
+.notfound-img {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   gap: 10px;
+}
+
+.su {
+   width: 250px;
+   height: 250px;
+   border-radius: 15px;
+}
+
+.nhi {
+   width: 250px;
+   height: 250px;
+   border-radius: 15px;
+}
+
+.hunter {
+   width: 250px;
+   height: 250px;
+   border-radius: 15px;
+}
+
+.sofia {
+   width: 250px;
+   height: 250px;
+   border-radius: 15px;
+}

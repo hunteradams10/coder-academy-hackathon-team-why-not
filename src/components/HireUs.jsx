@@ -7,7 +7,7 @@ const HireUs = () => {
       <div className='hire-us'>
         
         <div className="hire-us-message">
-          <p>Looking for developers to join your team? Why not hire us as your next assets.</p>
+          <p>Looking for developers to join your team? Why not hire us as your next assets?</p>
         </div>
         
         <div className='bio-card-main'>

@@ -7,19 +7,19 @@ const SearchBar = () => {
     const InitialEmojis = [
         {
             name:"nhi",
-            image: "image/Nhi.png"
+            image: "image/Nhi-Sm.png"
         },
         {
             name:'su',
-            image: "image/Su.png"
+            image: "image/Su-Sm.png"
         },
         {
             name:'sofia',
-            image: "image/Sofia.png"
+            image: "image/Sofia-Sm.png"
         },
         {
             name:'hunter',
-            image: "image/Hunter.png"
+            image: "image/Hunter-Sm.png"
         },
         {
             name: "default",

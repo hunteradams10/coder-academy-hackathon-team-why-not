@@ -5,8 +5,7 @@ import SearchBar from "./SearchBar";
 function EmojiSearch() {
   return (
     <div className="heading">
-      <h1>Emoji Search</h1>
-      <SearchBar />
+      <h1>Searching for just the right emoji? Type a word and <span className="emojiword">EmojiSearch</span> will do the rest.</h1>
     </div>  
   )  
 }
