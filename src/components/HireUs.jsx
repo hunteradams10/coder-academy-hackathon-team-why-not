@@ -32,7 +32,7 @@ const HireUs = () => {
             </div>
             <div className='bio-icons'>
               <a target='_blank' href='https://www.linkedin.com/in/su-zhang-au'><img src='image/linked-in-logo.png'></img></a>
-              <a target='_blank' href='https://codergirlsu.github.io/src/'><img src='image/github-logo.png'></img></a>
+              <a target='_blank' href='https://github.com/coderGirlSu'><img src='image/github-logo.png'></img></a>
             </div>
             <div className='bio-text'>
               <p>Su Zhang</p>
