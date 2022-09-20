@@ -5,11 +5,11 @@ const NotFound = () => {
     return (
       <div className='notfound'>
         <div className='notfound-text'>
-          <p>Sorry! The page you’re looking for cant be found.</p>
+          <p>Sorry! The page you’re looking for cannot be found.</p>
        </div>
 
        <div className='notfound-home'>
-         <p>Back to <a href='/'>Home</a></p>
+         <p>Back to <a className='linkhome' href='/'>Home</a></p>
        </div>
 
        <div className='notfound-img'>
