@@ -13,11 +13,11 @@ const HireUs = () => {
         <div className='bio-card-main'>
           <div className='bio-card'>
             <div className='bio-image'>
-              <img src='image/nhi-bio.png' alt=''></img>
+              <img src='image/nhi-bio.png' alt='bio image'></img>
             </div>
             <div className='bio-icons'>
-              <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/nhi-tran-39955b233/'><img src='image/linked-in-logo.png' alt=''></img></a>
-              <a target='_blank' rel="noreferrer" href='https://github.com/nhithutran'><img src='image/github-logo.png' alt=''></img></a>
+              <a target='_blank' href='https://www.linkedin.com/in/nhi-tran-39955b233/'><img src='image/linked-in-logo.png'></img></a>
+              <a target='_blank' href='https://github.com/nhithutran'><img src='image/github-logo.png'></img></a>
             </div>
             <div className='bio-text'>
               <p>Nhi Tran</p>
@@ -28,11 +28,11 @@ const HireUs = () => {
 
           <div className='bio-card'>
             <div className='bio-image'>
-              <img src='image/su-bio.png' alt=''></img>
+              <img src='image/su-bio.png' alt='bio image'></img>
             </div>
             <div className='bio-icons'>
-              <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/su-zhang-au'><img src='image/linked-in-logo.png' alt=''></img></a>
-              <a target='_blank' rel="noreferrer" href='https://github.com/coderGirlSu'><img src='image/github-logo.png' alt=''></img></a>
+              <a target='_blank' href='https://www.linkedin.com/in/su-zhang-au'><img src='image/linked-in-logo.png'></img></a>
+              <a target='_blank' href='https://github.com/coderGirlSu'><img src='image/github-logo.png'></img></a>
             </div>
             <div className='bio-text'>
               <p>Su Zhang</p>
@@ -43,11 +43,11 @@ const HireUs = () => {
 
           <div className='bio-card'>
             <div className='bio-image'>
-              <img src='image/hunter-bio.png' alt=''></img>
+              <img src='image/hunter-bio.png' alt='bio image'></img>
             </div>
             <div className='bio-icons'>
-              <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/hunteradamsdev'><img src='image/linked-in-logo.png' alt=''></img></a>
-              <a target='_blank' rel="noreferrer" href='https://github.com/hunteradams10'><img src='image/github-logo.png' alt=''></img></a>
+              <a target='_blank' href='https://www.linkedin.com/in/hunteradamsdev'><img src='image/linked-in-logo.png'></img></a>
+              <a target='_blank' href='https://github.com/hunteradams10'><img src='image/github-logo.png'></img></a>
             </div>
             <div className='bio-text'>
               <p>Hunter Adams</p>
@@ -58,12 +58,12 @@ const HireUs = () => {
 
           <div className='bio-card'>
             <div className='bio-image'>
-              <img src='image/fi-bio.png' alt=''></img>
+              <img src='image/fi-bio.png' alt='bio image'></img>
             </div>
 
             <div className='bio-icons'>
-              <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/sofiabellafrugone/'><img src='image/linked-in-logo.png' alt=''></img></a>
-              <a target='_blank' rel="noreferrer" href='https://github.com/sofia-frugone'><img src='image/github-logo.png' alt=''></img></a>
+              <a target='_blank' href='https://www.linkedin.com/in/sofiabellafrugone/'><img src='image/linked-in-logo.png'></img></a>
+              <a target='_blank' href='https://github.com/sofia-frugone'><img src='image/github-logo.png'></img></a>
             </div>
 
             <div className='bio-text'>
