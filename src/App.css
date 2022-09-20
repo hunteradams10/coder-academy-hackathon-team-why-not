@@ -187,6 +187,13 @@
     color: #464646;
     display: flex;
     justify-content: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
+ }
+
+ #dark  .hire-us-message{
+    color:#c568cc
  }
 
  .bio-card-main {
@@ -224,6 +231,10 @@
     font-weight: 300;
     color: #464646;
 
+ }
+
+ #dark  .bio-text{
+  color: #c568cc;
  }
 
  .bio-icons {
