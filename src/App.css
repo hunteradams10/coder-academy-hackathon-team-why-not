@@ -30,7 +30,7 @@
   }
   
   #dark .switch label {
-    color: white;
+    color: #adacad;
   }
 
   .nav{
@@ -136,4 +136,10 @@
     margin-top: 20px;
     text-align: center;
     margin-bottom: 27px;
+  }
+
+
+
+  #dark  .input::placeholder{
+    color: #f3d7f5;
   }
