@@ -1,6 +1,5 @@
 import React from 'react'
 import '../App.css'
-import SearchBar from "./SearchBar";
 
 function EmojiSearch() {
   return (
