@@ -75,10 +75,11 @@ const SearchBar = () => {
                 })
                 let emojiDedupe = emojiResult.filter((obj)=>!obj.name.startsWith("E"))
 
-            setData({
-                    ...data,
-                    emojis: [...InitialEmojis, ...emojiDedupe]
-                })
+            setData((d)=> {
+                return {
+                    ...d,
+                    emojis: [...d.emojis, ...emojiDedupe]
+                }})
                 
             }).catch((error) => {
                 console.log("Error!", error);
