@@ -1,5 +1,5 @@
 .App {
-    font-family: "Ubuntu", sans-serif;
+    font-family: "Poppins", sans-serif;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -43,16 +43,17 @@
   }
 
   .button {
-    padding: 2px;
+    padding: 5px;
     margin: 5px;
     border-radius: 5px;
     border-width: 1.5px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   }
 
   #light  .button {
-    color:#46045e;
+    color: #f7e3fc;
     border-color: #46045e;
-    background-color: #f797f6;
+    background-color: #46045e;
     opacity: 85%;
   }
 
@@ -67,7 +68,7 @@
   .emojiSearch {
     text-decoration: none;
     font-size: large;
-    font-weight: 300;
+    font-weight: 500;
     padding-left: 0.3rem;
   }
 
