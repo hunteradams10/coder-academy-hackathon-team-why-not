@@ -216,6 +216,11 @@
     border-radius: 15px; /* 15px rounded corners */
  }
 
+ #dark  .bio-card{
+    background-color: #c568cc;
+    opacity: 90%;
+ }
+
  .bio-image {
     height: 100px;
     width: 100px;
@@ -234,7 +239,7 @@
  }
 
  #dark  .bio-text{
-  color: #c568cc;
+  color: #46045e;
  }
 
  .bio-icons {
