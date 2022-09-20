@@ -30,13 +30,12 @@ function App() {
               <Route path="*" element={<NotFound />} />
             </Routes>
           </Router>
-
-          <SearchBar />
-
           <div className="switch">
             <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
             <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
           </div>
+
+          <SearchBar />
         </div>
       </div>
     </ThemeContext.Provider>
