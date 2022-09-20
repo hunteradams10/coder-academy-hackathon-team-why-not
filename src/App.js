@@ -5,7 +5,6 @@ import NavBar from "./components/NavBar";
 import EmojiSearch from "./components/EmojiSeach";
 import HireUs from "./components/HireUs";
 import NotFound from "./components/NotFound";
-import SearchBar from "./components/SearchBar";
 import { createContext, useState } from 'react';
 import ReactSwitch from 'react-switch'
 
@@ -34,8 +33,6 @@ function App() {
             <label>{theme === "light" ? "Light Mode" : "Dark Mode"}</label>
             <ReactSwitch onChange={toggleTheme} checked={theme === "dark"} />
           </div>
-
-          <SearchBar />
         </div>
       </div>
     </ThemeContext.Provider>
