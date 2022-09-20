@@ -256,6 +256,24 @@
     display: flex;
     justify-content: center;
     padding-top: 35px;
+    text-align: center;
+ }
+
+ .linkhome {
+  color: #46045e;
+  text-decoration: none;
+ }
+
+ #dark  .linkhome{
+  color:#c568cc
+ }
+
+ #dark  .notfound-text{
+    color:#adacad
+ }
+
+ #dark  .notfound-home{
+    color:#adacad;
  }
 
  .notfound-home {
