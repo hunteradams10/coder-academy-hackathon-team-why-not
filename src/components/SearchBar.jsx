@@ -125,7 +125,7 @@ const SearchBar = () => {
     function handleCopy(event){ 
         let emoji = event.target.innerText
         navigator.clipboard.writeText(emoji)
-        
+      // https://www.npmjs.com/package/react-toastify  
         toast.success(`Copied ${emoji} Good choice!`, {
             position: "top-center",
             autoClose: 5000,
