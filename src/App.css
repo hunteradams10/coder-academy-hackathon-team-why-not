@@ -1,7 +1,17 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  height: 100vh;
+}
+
+#root {
+  overflow: auto;
+}
+
 .App {
     font-family: "Ubuntu", sans-serif;
-    width: auto;
-    height: auto;
+    height: 100vh;
+    overflow: auto;
     display: flex;
   }
 
@@ -144,10 +154,7 @@
     color: #f3d7f5;
   }
 
-  body {
-    margin: 0;
-    padding: 0;
-  }
+
 
 /* Searchbar CSS */
 .search-container {
